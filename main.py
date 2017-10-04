@@ -1,9 +1,14 @@
+import sys
+
+
 def toHex(v, bits):
     return hex((v + (1 << bits)) % (1 << bits))
 
 
-V = 4  # Вариант
-G = 2  # Группа
+V = int(sys.argv[1])  # Вариант
+G = int(sys.argv[2])  # Группа
+print("Вариант: "+str(V))
+print("Группа: "+str(G))
 S = V + G
 x1 = (-1 ** V) * (S * 3)
 x2 = (-1 ** (V + 1)) * (S + 17)
@@ -15,6 +20,7 @@ x7 = -1 * (x5 * (2 ** 28))
 x8 = -1 * (x6 * (2 ** 20))
 x9 = (x7 * (2 ** 52)) - 0xc
 x = [x1, x2, x3, x4, x5, x6, x7, x8, x9]
+print()
 print("DECIMAL :")
 for i in x:
     print(i)
