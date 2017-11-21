@@ -5,11 +5,9 @@ def toHex(v, bits):
     return hex((v + (1 << bits)) % (1 << bits))
 
 
+BIT = 128
 V = int(sys.argv[1])  # Вариант
 G = int(sys.argv[2])  # Группа
-print("Вариант: "+str(V))
-print("Группа: "+str(G))
-S = V + G
 print("Вариант: " + str(V))
 print("Группа: " + str(G))
 S = V + G
