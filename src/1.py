@@ -1,5 +1,3 @@
-BIT = 64  # Максимум
-
 
 def toHex(v, bits):
     return hex((v + (1 << bits)) % (1 << bits))
@@ -16,7 +14,7 @@ def toFloat(x):
         z = '1'
         x = (-1) * x
     if x > 8388607:  # int(111 1111 1111 1111 1111 1111, 2) => 8388607
-        bits = BIT
+        bits = 64
     else:
         bits = 32
     print("Знак = " + z)
@@ -35,12 +33,13 @@ def toFloat(x):
     print('Дописываем ' + str(zero) + ' нулей')
     t = '0' * zero
     res += t
-    print("=> "+res)
+    print( "=> " +res)
     return hex(int(res, 2))
 
 
 V = 6  # Вариант
 G = 6  # Группа
+BIT = 128
 print("Вариант: " + str(V))
 print("Группа: " + str(G))
 S = V + G
