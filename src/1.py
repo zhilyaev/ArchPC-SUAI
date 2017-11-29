@@ -5,9 +5,42 @@ def toHex(v, bits):
     return hex((v + (1 << bits)) % (1 << bits))
 
 
+def bin_add(*args):
+    return bin(sum(int(x, 2) for x in args))[2:]
+
+
+def toFloat(x):
+    if x > 8388607:
+        bits = 64
+    else:
+        bits = 32
+    z = '0'
+    print('X := ' + str(x))
+    if x < 0:
+        z = '1'
+        x = (-1) * x
+    print("Знак = "+z)
+    x = bin(x)[2:]
+    print('x to bin -> ' + str(x))
+    p = len(x)
+    print('Порядок -> ' + str(p))
+    p = bin(p)[2:]
+    print('Порядок to bin -> ' + str(p))
+    p = bin_add('10000000', p)
+    print('Порядок = ' + str(p))
+    m = x[1:]
+    print('Мантисса = ' + str(m))
+    res = z + p + m
+    zero = bits - len(res)
+    for i in range(zero):
+        res += '0'
+    print("=> "+res)
+    return hex(int(res, 2))
+
+
 BIT = 128
-V = int(sys.argv[1])  # Вариант
-G = int(sys.argv[2])  # Группа
+V = 6  # Вариант
+G = 6  # Группа
 print("Вариант: " + str(V))
 print("Группа: " + str(G))
 S = V + G
@@ -49,3 +82,7 @@ print()
 print("З) Начальный адрес размещения:")
 print(V * G + 300)
 print()
+print("В системе с плавающей запятой")
+for i in x:
+    print(toFloat(i))
+    print('=============================')
