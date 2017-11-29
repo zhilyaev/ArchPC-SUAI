@@ -1,4 +1,4 @@
-BIT = 128  # Максимум
+BIT = 64  # Максимум
 
 
 def toHex(v, bits):
@@ -39,7 +39,7 @@ def toFloat(x):
     return hex(int(res, 2))
 
 
-V = 2  # Вариант
+V = 6  # Вариант
 G = 6  # Группа
 print("Вариант: " + str(V))
 print("Группа: " + str(G))
