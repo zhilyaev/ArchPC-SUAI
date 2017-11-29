@@ -15,7 +15,7 @@ def toFloat(x):
     if x < 0:
         z = '1'
         x = (-1) * x
-    if x > 8388607:
+    if x > 8388607:  # int(111 1111 1111 1111 1111 1111, 2) => 8388607
         bits = BIT
     else:
         bits = 32
@@ -35,10 +35,11 @@ def toFloat(x):
     print('Дописываем ' + str(zero) + ' нулей')
     t = '0' * zero
     res += t
+    print("=> "+res)
     return hex(int(res, 2))
 
 
-V = 16  # Вариант
+V = 2  # Вариант
 G = 6  # Группа
 print("Вариант: " + str(V))
 print("Группа: " + str(G))
