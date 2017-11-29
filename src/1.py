@@ -1,4 +1,4 @@
-import sys
+BIT = 128  # Максимум
 
 
 def toHex(v, bits):
@@ -10,16 +10,16 @@ def bin_add(*args):
 
 
 def toFloat(x):
-    if x > 8388607:
-        bits = 64
-    else:
-        bits = 32
     z = '0'
     print('X := ' + str(x))
     if x < 0:
         z = '1'
         x = (-1) * x
-    print("Знак = "+z)
+    if x > 8388607:
+        bits = BIT
+    else:
+        bits = 32
+    print("Знак = " + z)
     x = bin(x)[2:]
     print('x to bin -> ' + str(x))
     p = len(x)
@@ -32,14 +32,13 @@ def toFloat(x):
     print('Мантисса = ' + str(m))
     res = z + p + m
     zero = bits - len(res)
-    for i in range(zero):
-        res += '0'
-    print("=> "+res)
+    print('Дописываем ' + str(zero) + ' нулей')
+    t = '0' * zero
+    res += t
     return hex(int(res, 2))
 
 
-BIT = 128
-V = 6  # Вариант
+V = 16  # Вариант
 G = 6  # Группа
 print("Вариант: " + str(V))
 print("Группа: " + str(G))
