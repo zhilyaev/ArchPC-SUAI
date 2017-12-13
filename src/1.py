@@ -33,7 +33,7 @@ def toFloat(x):
     print('Дописываем ' + str(zero) + ' нулей')
     t = '0' * zero
     res += t
-    print( "=> " +res)
+    print("=> " + res)
     return hex(int(res, 2))
 
 

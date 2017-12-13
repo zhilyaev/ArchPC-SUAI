@@ -1,0 +1,32 @@
+[Processor settings]
+Memory size=2048
+Max commands before interruption=1048576
+Generate messages=1
+[Registers]
+PSL=00000008
+R1=00000054
+[Memory]
+0x00000000=B1 71 00 19 03 A0 61 50 B1 51 8F 40 00 18 F1 00 
+0x00000040=01 00 FF FF 02 00 FF FF 03 00 FF FF 05 00 FF FF 
+0x00000050=08 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 
+[Windows]
+MemoryEditor.Opened=1
+MemoryEditor.Left=106
+MemoryEditor.Top=82
+MemoryEditor.Width=600
+MemoryEditor.Height=476
+RegsEditor.Opened=1
+RegsEditor.Left=827
+RegsEditor.Top=350
+RegsEditor.Width=263
+RegsEditor.Height=308
+MsgsEditor.Opened=1
+MsgsForm.Left=715
+MsgsForm.Top=79
+MsgsForm.Width=500
+MsgsForm.Height=306
+VarsEditor.Opened=1
+VarsWin.Left=418
+VarsWin.Top=493
+VarsWin.Width=300
+VarsWin.Height=300
