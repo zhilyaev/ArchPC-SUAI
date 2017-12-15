@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c4e124-1141-4247-8dda-9f3afbbd5169" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/vax/2.2.1.V4.G6.v11" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vax/2.2.V4.G6.v11" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Address/4X/README.md" afterPath="$PROJECT_DIR$/Address/4X/README.md" />
       <change beforePath="$PROJECT_DIR$/cmd/README.md" afterPath="$PROJECT_DIR$/cmd/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -38,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/cmd/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="231">
-                <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <first_editor relative-caret-position="56">
+                <caret line="35" column="59" lean-forward="false" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -551,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513289175739</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="add v11 files">
+      <created>1513321438598</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1513321438598</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -559,6 +563,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="-9" width="1848" height="1098" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -569,7 +574,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8176915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14616252" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14616252" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -621,7 +626,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add description" />
     <MESSAGE value="Remove logic Mistake" />
     <MESSAGE value="Help us" />
     <MESSAGE value="Литер описание" />
@@ -646,7 +650,8 @@
     <MESSAGE value="Добавил команду ABC" />
     <MESSAGE value="ИЗМЕНЕНИЕ СРАВНЕНИЕ ПЕРЕХОД" />
     <MESSAGE value="add link to cmd" />
-    <option name="LAST_COMMIT_MESSAGE" value="add link to cmd" />
+    <MESSAGE value="add v11 files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add v11 files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -930,8 +935,8 @@
     <entry file="file://$PROJECT_DIR$/cmd/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="231">
-            <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <first_editor relative-caret-position="56">
+            <caret line="35" column="59" lean-forward="false" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
             <folding />
           </first_editor>
           <second_editor />
